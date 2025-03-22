@@ -1,0 +1,199 @@
+/* Estilos generales */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1A1235;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    background-color: #7A36FF;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #5B24CC;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #000;
+    /* Ajusta según el diseño */
+}
+
+/* Sección Hero */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: url('img/ADN1.png') no-repeat center center/cover;
+}
+
+/* Capa de oscurecimiento sobre la imagen */
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Oscurece la imagen para mejorar legibilidad */
+}
+
+/* Contenedor del contenido */
+.hero .container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* Alinea el texto a la izquierda */
+    height: 100vh;
+    /* Ajusta el margen izquierdo */
+}
+
+/* Ajustes de texto */
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    text-align: left;
+    max-width: 600px;
+    /* Limita el ancho para mejor lectura */
+}
+
+/* Botones */
+.hero .btn-primary {
+    background-color: #7b2cf5;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.hero .btn-primary:hover {
+    background-color: #6a1bd8;
+}
+
+.hero .btn-outline-light {
+    border: 2px solid white;
+    color: white;
+    padding: 10px 18px;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.hero .btn-outline-light:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Ajustes Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+/* Sección Capacitaciones */
+.capacitaciones {
+    background-color: #1D1D37;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.capacitaciones h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.capacitaciones p {
+    font-size: 1.2rem;
+    text-align: left;
+    max-width: 600px;
+    /* Limita el ancho para mejor lectura */
+}
+
+/* Sección FAQ */
+.faq {
+    background-color: #1D1D37;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.faq h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.faq p {
+    font-size: 1.2rem;
+    text-align: left;
+    max-width: 600px;
+    /* Limita el ancho para mejor lectura */
+}
+.accordion {
+    border: none;
+}
+
+.accordion-button {
+    background-color: #1D1D37;
+    color: #FFFFFF;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #1D1D37;
+    color: #FFFFFF;
+}
+
+.accordion-item  {
+    background-color: #1D1D37;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* Sección contact-form */
+.contact-form {
+    background-color: #1D1D37;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.contact-form h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.contact-form p {
+    font-size: 1.2rem;
+    text-align: left;
+    max-width: 600px;
+    /* Limita el ancho para mejor lectura */
+}
