@@ -2,186 +2,396 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Arte Movimiento</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arte Movimiento</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="text-white p-3" style="background: #1D1D37;">
-        <div class="container d-flex justify-content-between align-items-center">
-            <h1 class="h4 m-0">Arte Movimiento</h1>
-            <nav>
-                <a href="#" class="text-white me-3">Nosotros</a>
-                <a href="#" class="text-white me-3">Instructorado</a>
-                <a href="#" class="text-white me-3">Mas Informacion</a>
-                <a href="#" class="text-white me-3">Preguntas Frecuentes</a>
-                <button class="btn btn-primary">Preinscribirme</button>
-                <button class="btn btn-secondary">Ayuda</button>
-            </nav>
+  <header class="text-white p-3" style="background: #1D1D37;">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="h4 m-0">Arte Movimiento</h1>
+      <nav>
+        <a href="#" class="text-white me-3">Nosotros</a>
+        <a href="#" class="text-white me-3">Instructorado</a>
+        <a href="#" class="text-white me-3">Mas Informacion</a>
+        <a href="#" class="text-white me-3">Preguntas Frecuentes</a>
+        <button class="btn btn-primary">Preinscribirme</button>
+        <button class="btn btn-secondary">Ayuda</button>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="hero d-flex align-items-center text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Somos <br> <strong>Arte Movimiento</strong></h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <button class="btn btn-primary mb-1">Quiero inscribirme ahora</button>
+          <br>
+          <button class="btn btn-outline-light mt-1">Ver las capacitaciones</button>
         </div>
-    </header>
+      </div>
+
+    </div>
+  </section>
 
 
-    <section class="hero d-flex align-items-center text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>Somos <br> <strong>Arte Movimiento</strong></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                    <button class="btn btn-primary mb-1">Quiero inscribirme ahora</button>
-                    <br>
-                    <button class="btn btn-outline-light mt-1">Ver las capacitaciones</button>
-                </div>
+  <section class="capacitaciones d-flex align-items-center text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Elegí la capacitación, inscribite</h1>
+          <nav>
+            <div class="nav nav-tabs my-4" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-tela-tab" data-bs-toggle="tab" data-bs-target="#nav-tela"
+                type="button" role="tab" aria-controls="nav-tela" aria-selected="true">Tela</button>
+              <button class="nav-link" id="nav-lira-tab" data-bs-toggle="tab" data-bs-target="#nav-lira" type="button"
+                role="tab" aria-controls="nav-lira" aria-selected="false">Lira</button>
+              <button class="nav-link" id="nav-trapecio-tab" data-bs-toggle="tab" data-bs-target="#nav-trapecio"
+                type="button" role="tab" aria-controls="nav-trapecio" aria-selected="false">Trapecio Fijo</button>
+              <button class="nav-link" id="nav-integral-tab" data-bs-toggle="tab" data-bs-target="#nav-integral"
+                type="button" role="tab" aria-controls="nav-integral" aria-selected="false">Integral</button>
+              <button class="nav-link" id="nav-compo-tab" data-bs-toggle="tab" data-bs-target="#nav-compo" type="button"
+                role="tab" aria-controls="nav-compo" aria-selected="false">Composición performática</button>
             </div>
+          </nav>
+          <div class="tab-content p-4" id="nav-tabContent">
 
-        </div>
-    </section>
-
-
-    <section class="capacitaciones d-flex align-items-center text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h1>Elegí la capacitación, inscribite</h1>
-                    <nav>
-                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                          <button class="nav-link active" id="nav-tela-tab" data-bs-toggle="tab" data-bs-target="#nav-tela" type="button" role="tab" aria-controls="nav-tela" aria-selected="true">Tela</button>
-                          <button class="nav-link" id="nav-lira-tab" data-bs-toggle="tab" data-bs-target="#nav-lira" type="button" role="tab" aria-controls="nav-lira" aria-selected="false">Lira</button>
-                          <button class="nav-link" id="nav-trapecio-tab" data-bs-toggle="tab" data-bs-target="#nav-trapecio" type="button" role="tab" aria-controls="nav-trapecio" aria-selected="false">Trapecio Fijo</button>
-                          <button class="nav-link" id="nav-integral-tab" data-bs-toggle="tab" data-bs-target="#nav-integral" type="button" role="tab" aria-controls="nav-integral" aria-selected="false">Integral</button>
-                          <button class="nav-link" id="nav-compo-tab" data-bs-toggle="tab" data-bs-target="#nav-compo" type="button" role="tab" aria-controls="nav-compo" aria-selected="false">Composición performática</button>
-                        </div>
-                      </nav>
-                      <div class="tab-content" id="nav-tabContent">
-
-                        <div class="tab-pane fade show active" id="nav-tela" role="tabpanel" aria-labelledby="nav-tela-tab" tabindex="0">
-                            <div class="row">
-                                <div class="col"></div>
-                                <div class="col"></div>
-                            </div>
-                            
-                        </div>
-
-                        <div class="tab-pane fade" id="nav-lira" role="tabpanel" aria-labelledby="nav-lira-tab" tabindex="0">
-                            <div class="row">
-                                <div class="col"></div>
-                                <div class="col"></div>
-                            </div>
-
-                        </div>
-
-                        <div class="tab-pane fade" id="nav-trapecio" role="tabpanel" aria-labelledby="nav-trapecio-tab" tabindex="0">
-                            <div class="row">
-                                <div class="col"></div>
-                                <div class="col"></div>
-                            </div>
-
-                        </div>
-
-                        <div class="tab-pane fade" id="nav-integral" role="tabpanel" aria-labelledby="nav-integral-tab" tabindex="0">
-                            <div class="row">
-                                <div class="col"></div>
-                                <div class="col"></div>
-                            </div>
-
-                        </div>
-
-                        <div class="tab-pane fade" id="nav-compo" role="tabpanel" aria-labelledby="nav-compo-tab" tabindex="0">
-                            <div class="row">
-                                <div class="col"></div>
-                                <div class="col"></div>
-                            </div>
-
+            <div class="tab-pane fade show active" id="nav-tela" role="tabpanel" aria-labelledby="nav-tela-tab"
+              tabindex="0">
+              <div class="row">
+                <div class="col-7">
+                  <h4>Instructorado en Acrobacia en Telas</h4>
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                          aria-expanded="true" aria-controls="collapseOne">
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                          plugin adds the appropriate classes that we use to style each element. These classes control the
+                          overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                          with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                          can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                         </div>
                       </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="faq d-flex align-items-center text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>Preguntas Frecuentes</h1>
-                    <div class="accordion" id="accordionExample">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                              Accordion Item #1
-                            </button>
-                          </h2>
-                          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              Accordion Item #2
-                            </button>
-                          </h2>
-                          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              Accordion Item #3
-                            </button>
-                          </h2>
-                          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
-                          </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                          plugin adds the appropriate classes that we use to style each element. These classes control the
+                          overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                          with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                          can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                         </div>
                       </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                          plugin adds the appropriate classes that we use to style each element. These classes control the
+                          overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                          with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                          can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="contact-form d-flex align-items-center text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h1>¿Tenés dudas? Escribinos</h1>
+                <div class="col-5">
+                  <div class="card card-capacitaciones">
+                    <div class="card-title"></div>
+                    <div class="card-body text-white">
+                      
+                        <div class="row"><p><i class="bi bi-1-circle px-4" style="border-right: solid 1px !important;"></i><span class="p-4"> asdaasdada</span></p></div>
+                        <div class="row"><p><i class="bi bi-1-circle px-4" style="border-right: solid 1px !important;"></i><span class="p-4"> asdaasdada</span></p></div>
+                        <div class="row"><p><i class="bi bi-1-circle px-4" style="border-right: solid 1px !important;"></i><span class="p-4"> asdaasdada</span></p></div>
+                        <div class="row"><p><i class="bi bi-1-circle px-4" style="border-right: solid 1px !important;"></i><span class="p-4"> asdaasdada</span></p></div>
+                      
+                          
+                    </div>
+                  </div>
+                  <button class="btn btn-primary btn-lg mt-4">Inscribirme Ahora</button>
                 </div>
-            </div>
-            <div class="row">
-                <form>
-                    <div class="row">
-                        <input type="text" class="form-control mb-3" id="nombre" placeholder="Nombre">
-                    </div>
-                    <div class="row">
-                        <input type="email" class="form-control mb-3 w-50" id="email" placeholder="Correo electrónico">
-                        <input type="tel" class="form-control mb-3 w-50" id="tel" placeholder="Teléfono">
-                    </div>
-                    <div class="row">
-                       <textarea id="msg" rows="7" placeholder="Mensaje"></textarea>
-                    </div>
-                    <div class="row">
-                        
-                    </div>
-                </form>
+              </div>
+
             </div>
 
+            <div class="tab-pane fade" id="nav-lira" role="tabpanel" aria-labelledby="nav-lira-tab" tabindex="0">
+              <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+              </div>
+
+            </div>
+
+            <div class="tab-pane fade" id="nav-trapecio" role="tabpanel" aria-labelledby="nav-trapecio-tab"
+              tabindex="0">
+              <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+              </div>
+
+            </div>
+
+            <div class="tab-pane fade" id="nav-integral" role="tabpanel" aria-labelledby="nav-integral-tab"
+              tabindex="0">
+              <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+              </div>
+
+            </div>
+
+            <div class="tab-pane fade" id="nav-compo" role="tabpanel" aria-labelledby="nav-compo-tab" tabindex="0">
+              <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+              </div>
+
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+  </section>
+
+  <section class="faq d-flex align-items-center text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Preguntas Frecuentes</h1>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact-form d-flex align-items-center text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>¿Tenés dudas? Escribinos</h1>
+        </div>
+      </div>
+      <div class="row">
+        <form>
+          <div class="row">
+            <input type="text" class="form-control mb-3" id="nombre" placeholder="Nombre">
+          </div>
+          <div class="row">
+            <input type="email" class="form-control mb-3 w-50" id="email" placeholder="Correo electrónico">
+            <input type="tel" class="form-control mb-3 w-50" id="tel" placeholder="Teléfono">
+          </div>
+          <div class="row">
+            <textarea id="msg" rows="7" placeholder="Mensaje"></textarea>
+          </div>
+          <div class="row">
+
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="hero beneficios d-flex align-items-center text-white">
+    <div class="container">
+      <div class="row">
+        <h1>Clases virtuales, en vivo tu comodidad nos importa</h1>
+        <div class="col-4">
+         
+          <div class="cards-container">
+            <div class="card mb-4 p-4">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Clases virtuales y grabadas.</p>
+              </div>
+            </div>
+            <div class="card mb-4 p-4">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Clases virtuales y grabadas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq d-flex align-items-center text-white">
+    <div class="container">
+      <div class="row">
+        <h1>Más de 300 estudiantes</h1>
+        <div class="col">
+
+          <div class="card p-4">
+            <div class="card-header">
+              <div class="header-info">
+                <h4 style="color: #BD5199;">Nombre Apellido</h4>
+                <p>Instructor</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, expedita nisi assumenda animi recusandae obcaecati reprehenderit ut fuga dolores reiciendis sit similique, illum deleniti itaque rem eum possimus aut. Atque?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card p-4">
+            <div class="card-header">
+              <div class="header-info">
+                <h4 style="color: #BD5199;">Nombre Apellido</h4>
+                <p>Instructor</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, expedita nisi assumenda animi recusandae obcaecati reprehenderit ut fuga dolores reiciendis sit similique, illum deleniti itaque rem eum possimus aut. Atque?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card p-4">
+            <div class="card-header">
+              <div class="header-info">
+                <h4 style="color: #BD5199;">Nombre Apellido</h4>
+                <p>Instructor</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, expedita nisi assumenda animi recusandae obcaecati reprehenderit ut fuga dolores reiciendis sit similique, illum deleniti itaque rem eum possimus aut. Atque?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="contact-form d-flex align-items-center text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Formulario de Preinscripción</h1>
+        </div>
+      </div>
+      <div class="row">
+        <form>
+          <div class="row">
+            <input type="text" class="form-control mb-3" id="nombre" placeholder="Nombre">
+          </div>
+          <div class="row">
+            <input type="email" class="form-control mb-3 w-50" id="email" placeholder="Correo electrónico">
+            <input type="tel" class="form-control mb-3 w-50" id="tel" placeholder="Teléfono">
+          </div>
+          <div class="row">
+            <textarea id="msg" rows="7" placeholder="Mensaje"></textarea>
+          </div>
+          <div class="row">
+
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="footer d-flex align-items-center text-white pt-4">
+    <div class="container py-4">
+      <div class="row py-4">
+        <div class="col">LOGO</div>
+        <div class="col">Sobre ArteMovimiento</div>
+        <div class="col">Link</div>
+        <div class="col">FAQ</div>
+        <div class="col">Contacto</div>
+      </div>
+      <div class="row">RAF.x</div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

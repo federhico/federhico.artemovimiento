@@ -6,6 +6,17 @@ body {
     color: #FFFFFF;
 }
 
+.card-header{
+    border: none;
+}
+h1 {
+    margin-bottom: 2rem !important;
+}
+
+ul{
+    list-style: none ;
+}
+
 .btn-primary {
     background-color: #7A36FF;
     border: none;
@@ -63,7 +74,7 @@ body {
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: left;
     max-width: 600px;
     /* Limita el ancho para mejor lectura */
@@ -129,11 +140,38 @@ body {
 }
 
 .capacitaciones p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: left;
     max-width: 600px;
     /* Limita el ancho para mejor lectura */
 }
+
+.card {
+    border: none;
+    border-radius: 0;
+    background-color: #1A1235;
+    color: #FFFFFF;
+}
+
+.nav {
+
+    border-color: #BD5199;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+    margin-right: 0.25rem;
+}
+
+.nav-link:hover {
+    border-color: #BD5199 !important;
+}
+
+.nav-link.active {
+    background-color: #BD5199 !important;
+    border-color: #BD5199 !important;
+}
+
 
 /* Sección FAQ */
 .faq {
@@ -151,11 +189,12 @@ body {
 }
 
 .faq p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: left;
     max-width: 600px;
     /* Limita el ancho para mejor lectura */
 }
+
 .accordion {
     border: none;
 }
@@ -163,17 +202,30 @@ body {
 .accordion-button {
     background-color: #1D1D37;
     color: #FFFFFF;
+    border-color: #BD5199 !important;
 }
 
 .accordion-button:not(.collapsed) {
     background-color: #1D1D37;
     color: #FFFFFF;
+    box-shadow: none;
+}
+.accordion-button::after
+{
+    color: #FFFFFF !important;
+    fill:#FFFFFF !important;
 }
 
-.accordion-item  {
+.accordion-item {
     background-color: #1D1D37;
     color: #FFFFFF;
-    border: none;
+    border:none;
+}
+
+.accordion-header {
+    background-color: #1D1D37;
+    color: #FFFFFF;
+    border-bottom: 1px solid #BD5199;
 }
 
 /* Sección contact-form */
@@ -192,8 +244,19 @@ body {
 }
 
 .contact-form p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: left;
     max-width: 600px;
     /* Limita el ancho para mejor lectura */
+}
+
+.beneficios {
+    background: url('img/ADN2.png') no-repeat center center/cover;
+}
+
+.footer {
+    background-color: #1D1D37;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
