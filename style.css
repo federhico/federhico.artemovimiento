@@ -1,9 +1,26 @@
 /* Estilos generales */
 
+/* RAF */
+
+.RAF {
+    color: #bd5199;
+    text-decoration: none; 
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #1A1235;
     color: #FFFFFF;
+}
+
+.logo {
+    height: 5rem;
+    width: 5rem;
+}
+
+.footer-logo {
+    height: 8rem;
+    width: 8rem;
 }
 
 .card-header{
@@ -18,7 +35,7 @@ ul{
 }
 
 .btn-primary {
-    background-color: #7A36FF;
+    background-image:linear-gradient(90deg, #bd5199 0%, #6b41ef 100%);
     border: none;
 }
 
@@ -39,7 +56,7 @@ body {
     width: 100%;
     height: 100vh;
     display: flex;
-    background: url('img/ADN1.png') no-repeat center center/cover;
+    background: url('img/nosotros.webp') no-repeat center center/cover;
 }
 
 /* Capa de oscurecimiento sobre la imagen */
@@ -94,18 +111,19 @@ body {
     background-color: #6a1bd8;
 }
 
-.hero .btn-outline-light {
-    border: 2px solid white;
+.btn-outline-light {
+    border: 2px solid #6b41ef;
     color: white;
-    padding: 10px 18px;
+
     font-size: 1rem;
     border-radius: 8px;
     transition: 0.3s ease;
 }
 
-.hero .btn-outline-light:hover {
-    background-color: white;
-    color: black;
+.btn-outline-light:hover {
+    background-color: #6b41ef;
+    border: 2px solid #6b41ef;
+    color: white;
 }
 
 /* Ajustes Responsive */
@@ -146,10 +164,12 @@ body {
     /* Limita el ancho para mejor lectura */
 }
 
+
 .card {
     border: none;
     border-radius: 0;
-    background-color: #1A1235;
+    background: linear-gradient(106deg, rgba(107, 65, 239, 0.40) 5.29%, rgba(107, 65, 239, 0.10) 94.99%);
+    backdrop-filter: blur(20px);
     color: #FFFFFF;
 }
 
@@ -207,14 +227,10 @@ body {
 
 .accordion-button:not(.collapsed) {
     background-color: #1D1D37;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     box-shadow: none;
 }
-.accordion-button::after
-{
-    color: #FFFFFF !important;
-    fill:#FFFFFF !important;
-}
+
 
 .accordion-item {
     background-color: #1D1D37;
@@ -251,7 +267,7 @@ body {
 }
 
 .beneficios {
-    background: url('img/ADN2.png') no-repeat center center/cover;
+    background: url('img/beneficios.webp') no-repeat center center/cover;
 }
 
 .footer {
@@ -259,4 +275,8 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
+}
+
+.preinscription-form {
+    background: url('img/formulariopreinsc.webp') no-repeat center center/cover;
 }
